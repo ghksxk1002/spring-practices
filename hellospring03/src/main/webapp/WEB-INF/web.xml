@@ -5,13 +5,20 @@
 	version="2.5">
 	<display-name>hellospring03</display-name>
 
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+		<version>3.0.1</version>
+		<scope>provided</scope>
+	</dependency>
 	<!-- servlet mapping -->
-	
-	
+
+
 	<!-- Dispachet servlet -->
 	<servlet>
 		<servlet-name>spring</servlet-name>
-		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
