@@ -1,4 +1,4 @@
-package com.douzone.emillist.repository;
+package com.douzone.emaillist.repository;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,8 +8,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.douzone.emaillist.vo.EmaillistVo;
 
+@Repository
 public class EmaillistRepository {
 
 	public List<EmaillistVo> findAll() {
