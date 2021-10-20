@@ -1,6 +1,6 @@
 package com.douzone.aoptest.service;
 
-import javax.management.RuntimeErrorException;
+
 
 import org.springframework.stereotype.Service;
 
@@ -12,9 +12,9 @@ public class ProductService {
 	public ProductVo find(String name) {
 
 		System.out.println("[ProductService] find all..");
-		if (true) {
-			throw new RuntimeException("Find Exception");
-		}
+//		if (true) {
+//			throw new RuntimeException("Find Exception");
+//		}
 		return new ProductVo(name);
 	}
 }
