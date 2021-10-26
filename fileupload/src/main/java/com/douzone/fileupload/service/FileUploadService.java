@@ -61,7 +61,7 @@ public class FileUploadService {
 		filename +=calendar.get(Calendar.MILLISECOND);
 		
 		filename +=("."+extName);
-		return null;
+		return filename;
 	}
 
 	
